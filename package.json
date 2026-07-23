@@ -12,7 +12,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "test:k2-matrix": "vitest run --config vitest.k2-matrix.config.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "latest",
